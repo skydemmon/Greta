@@ -12,7 +12,7 @@ $(document).ready(function () {
     });
 });
 
-$("h2").css("text-align", "center");
+$("h2").attr("align", "center");
 $("p").css("text-align", "center");
 
 
