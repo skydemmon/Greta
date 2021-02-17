@@ -1,5 +1,6 @@
-// EXO 1 
+//EXO 1 -Céline
 
-$("p").text("Hello Word");
+$("p").text("Hello World !");
 
-// EXO 1 
+//EXO 1
+
