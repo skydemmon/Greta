@@ -23,4 +23,14 @@ $("img").animate({
     "margin-left": "200px"
 
 }, 1000);
+
 //
+
+//exo6D
+
+$(document).ready(function () {
+    $(".thumb").mouseover(function () {
+        var photoSrc = $(this).find("img").attr("src");
+        $(this).append("<div class='big-img-cont'><img src='" + photoSrc + "' /></div>");
+    });
+});
