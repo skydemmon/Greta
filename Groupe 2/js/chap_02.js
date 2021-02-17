@@ -4,3 +4,4 @@ $("#divAge").text("138 ans");
 $(".titreSection").css("background-color", "yellow");
 $(".dateCV").css("font-weight", "bold");
 //
+
