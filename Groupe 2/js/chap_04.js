@@ -11,3 +11,17 @@ $(document).ready(function () {
     });
 });
 //
+
+
+$(document).ready(function () {
+    $("img").on({
+        mouseenter: function () {
+            $("span").show();
+        },
+
+        mouseleave: function () {
+            $("span").hide();
+        },
+
+    });
+});
